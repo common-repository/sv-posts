@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SV Posts\n"
+"POT-Creation-Date: 2021-10-19 15:09+0200\n"
+"PO-Revision-Date: 2021-10-19 15:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sv_posts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#. Plugin Name of the plugin/theme
+#: dist/blocks.build.js:1 src/block/index.js:9 src/block/index.js:14
+msgid "SV Posts"
+msgstr "SV Posts"
+
+#: dist/blocks.build.js:1 src/block/index.js:10
+msgid "Display your most recent posts, in the way you want it."
+msgstr "Zeigen Sie Ihre letzten Beiträge so an, wie Sie es möchten."
+
+#: dist/blocks.build.js:1 src/block/index.js:15
+msgid "Blog"
+msgstr "Blog"
+
+#: dist/blocks.build.js:1 src/block/index.js:16
+msgid "Posts"
+msgstr "Beiträge"
+
+#: dist/blocks.build.js:1 src/block/index.js:94 src/block/index.php:194
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: dist/blocks.build.js:1 src/block/edit.js:235
+msgid "Loading posts..."
+msgstr "Beiträge werden geladen ..."
+
+#: dist/blocks.build.js:1 src/block/edit.js:245
+msgid "No posts found"
+msgstr "Keine Beiträge gefunden"
+
+#: dist/blocks.build.js:1 src/block/components/block_controls.js:27
+msgid "Change post style"
+msgstr "Ändern des Beitragsstil"
+
+#: dist/blocks.build.js:1 src/block/components/block_controls.js:40
+#: src/block/components/inspector/style_layout.js:32
+msgid "Card"
+msgstr "Karte"
+
+#: dist/blocks.build.js:1 src/block/components/block_controls.js:50
+#: src/block/components/inspector/style_layout.js:33
+msgid "List"
+msgstr "Liste"
+
+#: dist/blocks.build.js:1 src/block/components/block_controls.js:60
+#: src/block/components/inspector/style_layout.js:34
+msgid "Tile"
+msgstr "Kachel"
+
+#: dist/blocks.build.js:1 src/block/components/block_controls.js:70
+#: src/block/components/inspector/style_layout.js:29
+msgid "Post Style"
+msgstr "Beitragsstil"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/style_layout.js:22
+msgid "Style & Layout"
+msgstr "Stil & Layout"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/style_layout.js:42
+msgid "Layout"
+msgstr "Layout"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/style_layout.js:45
+msgid "Grid"
+msgstr "Raster"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/style_layout.js:46
+msgid "Masonry"
+msgstr "Gekachelt"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/style_layout.js:55
+msgid "Columns"
+msgstr "Spalten"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/border_settings.js:47
+#: src/block/components/inspector/color_settings.js:59
+msgid "Border"
+msgstr "Border"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/border_settings.js:51
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_width.php:46
+msgid "Border Width"
+msgstr "Border Width"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/border_settings.js:64
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_radius.php:46
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/border_settings.js:77
+msgid "Category Border Radius"
+msgstr "Kategorie Border Radius"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:26
+#: src/block/components/inspector/thumbnail_settings.js:30
+#: src/block/components/inspector/thumbnail_settings.js:57
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:40
+msgid "Thumbnail Position"
+msgstr "Vorschaubild Position"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:43
+msgid "Above"
+msgstr "Oberhalb"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:51
+#: src/block/components/inspector/thumbnail_settings.js:44
+msgid "Left"
+msgstr "Links"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:53
+#: src/block/components/inspector/thumbnail_settings.js:45
+msgid "Right"
+msgstr "Rechts"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:46
+msgid "Below"
+msgstr "Unterhalb"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:54
+msgid "Thumbnail Size"
+msgstr "Vorschaubild Größe"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:58
+msgid "Medium"
+msgstr "Mittel"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:59
+msgid "Medium Large"
+msgstr "Mittelgroß"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:60
+msgid "Large"
+msgstr "Groß"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:61
+msgid "Full Size"
+msgstr "Originalgröße"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/thumbnail_settings.js:66
+msgid "Link thumbnail to post"
+msgstr "Vorschaubild zum Beitrag verlinken"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:44
+msgid "Title & Content"
+msgstr "Titel & Inhalt"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:48
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:52
+msgid "Center"
+msgstr "Zentriert"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:67
+#: src/block/components/inspector/content_settings.js:59
+#: src/block/components/inspector/filter_settings.js:64
+#: src/core_plugin/core/abstract_template_sv_archive.php:65
+#: src/core_plugin/core/abstract_template_sv_content.php:65
+msgid "Title"
+msgstr "Titel"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:66
+msgid "Link title to post"
+msgstr "Titel zum Beitrag verlinken"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:80
+msgid "Content"
+msgstr "Inhalt"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:87
+msgid "Show"
+msgstr "Anzeigen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:75
+#: src/block/components/inspector/content_settings.js:90
+#: src/core_plugin/core/abstract_template_sv_archive.php:69
+#: src/core_plugin/core/abstract_template_sv_content.php:69
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/content_settings.js:91
+msgid "Full Post"
+msgstr "Ganzer Beitrag"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/content_settings.js:100
+msgid "Max number of words in excerpt"
+msgstr "Maximale Anzahl von Wörtern im Auszug"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/content_settings.js:120
+msgid "Show Read More"
+msgstr "Zeige Weiterlesen"
+
+#: dist/blocks.build.js:1
+#: src/block/components/inspector/content_settings.js:126
+msgid "Read More Text"
+msgstr "Weiterlesen Text"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:116
+#: src/block/components/inspector/meta_settings.js:32
+msgid "Meta"
+msgstr "Meta"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:65
+#: src/block/components/inspector/meta_settings.js:36
+#: src/core_plugin/core/abstract_template_sv_archive.php:77
+#: src/core_plugin/core/abstract_template_sv_content.php:77
+msgid "Author"
+msgstr "Autor"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:63
+#: src/block/components/inspector/meta_settings.js:41
+#: src/core_plugin/core/abstract_template_sv_archive.php:81
+#: src/core_plugin/core/abstract_template_sv_content.php:81
+msgid "Date"
+msgstr "Datum"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/meta_settings.js:46
+#: src/core_plugin/core/abstract_template_sv_archive.php:89
+#: src/core_plugin/core/abstract_template_sv_content.php:89
+msgid "Categories"
+msgstr "Kategorien"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/meta_settings.js:51
+msgid "Link Categories"
+msgstr "Link-Kategorien"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/meta_settings.js:58
+#: src/lib/modules/sv_posts/lib/frontend/tpl/style_card.php:89
+#: src/lib/modules/sv_posts/lib/frontend/tpl/style_list.php:85
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:52
+msgid "Background"
+msgstr "Hintergrund"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:86
+#: src/core_plugin/core/abstract_template_sv_archive.php:73
+#: src/core_plugin/core/abstract_template_sv_content.php:73
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:97
+msgid "Category"
+msgstr "Kategorie"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:106
+msgid "Category Background"
+msgstr "Kategorie Hintergrund"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:125
+msgid "Meta Icon"
+msgstr "Meta Icon"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/color_settings.js:130
+msgid "Colors"
+msgstr "Farben"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:133
+msgid "Sorting & Filtering"
+msgstr "Sortierung & Filterung"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:137
+msgid "Order by"
+msgstr "Sortieren nach"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:66
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:67
+msgid "Random"
+msgstr "Zufällig"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:68
+msgid "Menu Order"
+msgstr "Menüreihenfolge"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:72
+msgid "Order from \"Filter by Post ID's\""
+msgstr "Sortiere nach \"Filter nach Post ID's\""
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:143
+msgid "Order"
+msgstr "Sortierung"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:146
+msgid "Descending"
+msgstr "Absteigend"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:147
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:152
+msgid "Number of items"
+msgstr "Anzahl der Beiträge"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:159
+msgid "Offset posts"
+msgstr "Beiträge versetzen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:166
+msgid "Show from Author"
+msgstr "Zeige vom Autor"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:49
+msgid "All"
+msgstr "Alle"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:172
+msgid "Filter by Post Type"
+msgstr "Filter nach Post Type"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:182
+msgid "Filter by Post ID's"
+msgstr "Filter nach Post ID's"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:184
+msgid "Seperate Post ID's with commas."
+msgstr "Trenne Post ID's mit Kommas."
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:189
+msgid "Enable Infinite Scroll"
+msgstr "Endlos Scrollen aktivieren"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:200
+msgid "Enable Pagination"
+msgstr "Seiten-Nummerierung aktivieren"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:211
+msgid "Remove current post from list"
+msgstr "Entferne den aktuellen Beitrag aus der Liste"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:216
+msgid "Show only posts with Thumbnail"
+msgstr "Nur Beiträge mit Vorschaubild anzeigen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:221
+msgid "Link post to category page"
+msgstr "Verlinke Beiträge zur Kategorie-Seite"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:228
+msgid "WPML - Ignore post language"
+msgstr "WPML - Postsprache ignorieren"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:236
+msgid "Filter by Taxonomy Terms"
+msgstr "Filter nach Taxonomie Begriffen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:265
+msgid "Filter by Date"
+msgstr "Filtern nach Datum"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:278
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
+msgid "Start"
+msgstr "Start"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:284
+msgid "End"
+msgstr "Ende"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:293
+msgid "Filter by Status"
+msgstr "Nach Status filtern"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:300
+msgid "Publish"
+msgstr "Veröffentlicht"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:305
+msgid "Future"
+msgstr "Geplant"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:310
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:315
+msgid "Draft"
+msgstr "Entwurf"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:320
+msgid "Private"
+msgstr "Privat"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/filter_settings.js:325
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:31
+msgid "Slider"
+msgstr "Slider"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:35
+msgid "Activate Slider"
+msgstr "Aktiviere Slider"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:48
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:56
+msgid "Autoplay Speed (ms)"
+msgstr "Autoplay-Geschwindigkeit (ms)"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:69
+msgid "Infinite"
+msgstr "Unendlich"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:74
+msgid "Show Arrows"
+msgstr "Zeige Pfeile"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:79
+msgid "Show Dots"
+msgstr "Zeige Punkte"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:84
+msgid "Center Mode"
+msgstr "Zentriert Modus"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:89
+msgid "Slides to show"
+msgstr "Slides zum Anzeigen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:99
+msgid "Slides to scroll"
+msgstr "Slides zum scrollen"
+
+#: dist/blocks.build.js:1 src/block/components/inspector/slider_settings.js:109
+msgid "Speed (ms)"
+msgstr "Geschwindigkeit (ms)"
+
+#: dist/blocks.build.js:1 src/block/components/post_styles/style_card.js:332
+#: src/block/components/post_styles/style_list.js:295
+msgid "Bearbeiten"
+msgstr "Bearbeiten"
+
+#: src/block/index.php:1083
+#, php-format
+msgid "View all posts in %s"
+msgstr "Zeige alle Beiträge in %s"
+
+#: src/core_plugin/core/abstract.php:88
+msgid "Class"
+msgstr "Klasse"
+
+#: src/core_plugin/core/abstract.php:90
+msgid "could not be loaded (tried to load class-file"
+msgstr "konnte nicht geladen werden (versucht, die Klassendatei zu laden"
+
+#: src/core_plugin/core/abstract.php:162 src/core_plugin/core/abstract.php:180
+#: src/core_plugin/core/abstract.php:198
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: src/core_plugin/core/abstract.php:286
+msgid "Configuration &amp; Settings"
+msgstr "Konfiguration &amp; Einstellungen"
+
+#: src/core_plugin/core/abstract.php:287
+msgid "Helpful tools &amp; helper"
+msgstr "Hilfreiche Tools &amp; Helfer"
+
+#: src/core_plugin/core/abstract.php:396
+#: src/core_plugin/core/abstract_template_sv_archive.php:25
+#: src/core_plugin/core/abstract_template_sv_content.php:25
+msgid "Common"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/abstract.php:709
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: src/core_plugin/core/abstract.php:729
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: src/core_plugin/core/abstract.php:739
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: src/core_plugin/core/abstract.php:816
+#: src/core_plugin/core/scripts/scripts.php:118
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:29
+#: src/core_plugin/core/abstract_template_sv_content.php:29
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:72
+msgid "Entry"
+msgstr "Eintrag"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:33
+#: src/core_plugin/core/abstract_template_sv_content.php:33
+msgid "Empty"
+msgstr "Leer"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:37
+#: src/core_plugin/core/abstract_template_sv_content.php:37
+msgid "Header"
+msgstr "Kopfbereich"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:41
+#: src/core_plugin/core/abstract_template_sv_content.php:41
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:45
+#: src/core_plugin/core/abstract_template_sv_content.php:45
+msgid "Sidebar Top"
+msgstr "Seitenleiste Oben"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:49
+#: src/core_plugin/core/abstract_template_sv_content.php:49
+msgid "Sidebar Right"
+msgstr "Sidebar rechts"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:53
+#: src/core_plugin/core/abstract_template_sv_content.php:53
+msgid "Sidebar Bottom"
+msgstr "Seitenleiste Unten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:57
+#: src/core_plugin/core/abstract_template_sv_content.php:57
+msgid "Sidebar Left"
+msgstr "Sidebar links"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:61
+#: src/core_plugin/core/abstract_template_sv_content.php:61
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:85
+#: src/core_plugin/core/abstract_template_sv_content.php:85
+msgid "Date Modified"
+msgstr "Datum letzte Bearbeitung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:287
+#: src/core_plugin/core/abstract_template_sv_content.php:279
+msgid "Extra Styles"
+msgstr "Extra Styles"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:294
+#: src/core_plugin/core/abstract_template_sv_content.php:286
+msgid "Style Label"
+msgstr "Beschriftung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:295
+#: src/core_plugin/core/abstract_template_sv_content.php:287
+msgid "A label to differentiate your Styles."
+msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:297
+#: src/core_plugin/core/abstract_template_sv_content.php:289
+msgid "Label"
+msgstr "Beschriftung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:303
+#: src/core_plugin/core/abstract_template_sv_content.php:295
+msgid "Slug"
+msgstr "Slug"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:304
+#: src/core_plugin/core/abstract_template_sv_content.php:296
+msgid "This slug is used for the helper classes."
+msgstr "Dieser Slug wird für die Helferklassen verwendet."
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:4
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:5
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:8
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: src/core_plugin/core/backend/tpl/about.php:5
+#: src/core_plugin/core/backend/tpl/header.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:16
+msgid "About"
+msgstr "Über"
+
+#: src/core_plugin/core/backend/tpl/about.php:10
+#: src/core_plugin/core/info/backend/tpl/about.php:21
+#: src/core_plugin/core_plugin.php:42 src/core_plugin/core_plugin.php:43
+msgid "Info"
+msgstr "Info"
+
+#: src/core_plugin/core/backend/tpl/about.php:12
+#: src/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Name:"
+msgstr "Name:"
+
+#: src/core_plugin/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: src/core_plugin/core/backend/tpl/about.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:38
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/core_plugin/core/backend/tpl/header.php:18
+msgid "General info & description"
+msgstr "Allgemeine Infos & Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/header.php:25
+#: src/core_plugin/core/backend/tpl/legal.php:5
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+#: src/core_plugin/core/backend/tpl/header.php:26
+msgid "Copyright & Usage"
+msgstr "Copyright & Nutzung"
+
+#: src/core_plugin/core/backend/tpl/legal.php:9
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "Project Website:"
+msgstr "Projekt Website:"
+
+#. Author of the plugin/theme
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "straightvisions GmbH"
+msgstr "straightvisions GmbH"
+
+#: src/core_plugin/core/backend/tpl/legal.php:13
+msgid "License: GPL3 or later"
+msgstr "Lizenz: GPL3 oder höher"
+
+#: src/core_plugin/core/backend/tpl/legal.php:16
+msgid "This program is free software:"
+msgstr "This program is free software:"
+
+#: src/core_plugin/core/backend/tpl/legal.php:19
+msgid ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+msgstr ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+
+#: src/core_plugin/core/backend/tpl/legal.php:26
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+msgstr ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+
+#: src/core_plugin/core/backend/tpl/legal.php:31
+msgid "See the GNU General Public License for more details."
+msgstr "See the GNU General Public License for more details."
+
+#: src/core_plugin/core/backend/tpl/legal.php:33
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+
+#: src/core_plugin/core/backend/tpl/legal.php:35
+msgid "If not, See"
+msgstr "If not, See"
+
+#: src/core_plugin/core/backend/tpl/legal.php:37
+msgid "http://www.gnu.org/licenses/"
+msgstr "http://www.gnu.org/licenses/"
+
+#: src/core_plugin/core/backend/tpl/legal.php:42
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: src/core_plugin/core/core.php:113
+msgid ""
+"Please check that all SV products are up to date. You may need to update "
+msgstr ""
+"Bitte überprüfe, dass alle SV Produkte auf dem aktuellen Stand sind. "
+"Folgende müssen möglicherweise aktualisiert werden "
+
+#: src/core_plugin/core/core.php:114
+msgid "SV Core was loaded by"
+msgstr "SV Core wurde geladen von"
+
+#: src/core_plugin/core/core.php:116
+msgid "with version:"
+msgstr "mit Version:"
+
+#: src/core_plugin/core/core.php:117
+#, php-format
+msgid "but %s v%s requires core-version"
+msgstr "aber %s v%s benötigt Core-Version"
+
+#: src/core_plugin/core/core.php:160 src/core_plugin/core/core.php:166
+#: src/core_plugin/core/core.php:303 src/core_plugin/core/core.php:322
+#: src/core_plugin/core/core.php:474
+msgid "Setting saved"
+msgstr "Einstellung gespeichert"
+
+#: src/core_plugin/core/core.php:305
+msgid "Nonce check failed / Empty data."
+msgstr "Nonce-Prüfung fehlgeschlagen / Leere Daten."
+
+#: src/core_plugin/core/core.php:313
+msgid "Nothing to update."
+msgstr "Nichts zu aktualisieren."
+
+#: src/core_plugin/core/core.php:326
+msgid "You are unauthorized to perform this action."
+msgstr "Du bist nicht berechtigt, diese Aktion durchzuführen."
+
+#: src/core_plugin/core/core.php:332
+msgid "Nonce check cannot fail."
+msgstr "Nonce-Prüfung kann nicht fehlschlagen."
+
+#: src/core_plugin/core/core.php:366
+msgid "Website enhanced by straightvisions.com"
+msgstr "Website enhanced by straightvisions.com"
+
+#: src/core_plugin/core/core.php:437
+#: src/core_plugin/core/info/backend/tpl/about.php:62
+msgid "Expert Mode"
+msgstr "Experten-Modus"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:28
+msgid "Active Core Version:"
+msgstr "Aktive Core Version:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:32
+msgid "Active Core Path:"
+msgstr "Aktiver Core Pfad:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:42
+msgid ""
+"Our themes and plugins share a core which provides commonly used features.\n"
+"\t\t\t\t\tThe core is included and shared within each plugin or theme, so "
+"make sure if you update one product,\n"
+"\t\t\t\t\tto update all others too."
+msgstr ""
+"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
+"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch aktualisiert werden."
+
+#: src/core_plugin/core/info/backend/tpl/about.php:51
+msgid "Primary Instance"
+msgstr "Primäre Instanz"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:71
+msgid "Instances"
+msgstr "Instanzen"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:78
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+"Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Theme"
+msgstr "Theme"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:113
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:114
+#: src/core_plugin/core/scripts/scripts.php:227
+#: src/core_plugin/core/scripts/scripts.php:237
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: src/core_plugin/core/info/info.php:13
+msgid "SV Core"
+msgstr "SV Core"
+
+#: src/core_plugin/core/info/info.php:14
+msgid ""
+"Our core framework is included in all recent plugins and themes by "
+"straightvisions."
+msgstr ""
+"Unser Core Framework ist Teil aller unserer aktuellen Plugins und Themes von "
+"straightvisions.com."
+
+#: src/core_plugin/core/info/info.php:16
+msgid "does not collect or share any data from clients or visitors."
+msgstr "sammelt oder teilt keine Daten von Kunden oder Gästen."
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_general.php:3
+msgid "General"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_list.php:3
+msgid "Scripts Overview"
+msgstr "Skriptübersicht"
+
+#: src/core_plugin/core/scripts/scripts.php:50
+msgid "Scripts"
+msgstr "Skripte"
+
+#: src/core_plugin/core/scripts/scripts.php:51
+msgid "Override Scripts Loading."
+msgstr "Ladeeinstellungen der Scripte überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:109
+msgid "SV100"
+msgstr "SV100"
+
+#: src/core_plugin/core/scripts/scripts.php:130
+msgid "Clear Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:191
+msgid "Flush cache for all CSS files"
+msgstr "Leere Cache für alle CSS Dateien"
+
+#: src/core_plugin/core/scripts/scripts.php:192
+msgid "All cached CSS Files will be regenerated"
+msgstr "Alle gecachten CSS Dateien werden neu generiert"
+
+#: src/core_plugin/core/scripts/scripts.php:197
+msgid "Disable all CSS per Default"
+msgstr "Alle CSS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:198
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
+"weiter unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:203
+msgid "Disable all JS per Default"
+msgstr "Alle JS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:204
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
+"unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:229
+#: src/core_plugin/core/scripts/scripts.php:235
+msgid "Inline"
+msgstr "Inline"
+
+#: src/core_plugin/core/scripts/scripts.php:229
+#: src/core_plugin/core/scripts/scripts.php:236
+msgid "Attached"
+msgstr "Angehängt"
+
+#: src/core_plugin/core/scripts/scripts.php:234
+msgid "Default"
+msgstr "Standard"
+
+#: src/core_plugin/core/scripts/scripts.php:254
+#: src/core_plugin/core/scripts/scripts.php:264
+msgid "Flush Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:255
+#: src/core_plugin/core/scripts/scripts.php:265
+msgid "Cache Active"
+msgstr "Cache Aktiv"
+
+#: src/core_plugin/core/scripts/scripts.php:519
+msgid "Script \""
+msgstr "Skript \""
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:59
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:72
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: src/core_plugin/core/settings/settings.php:261
+msgid "No Options defined!"
+msgstr "Keine Beschreibung definiert!"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "You need at least"
+msgstr "Du brauchst mindestens"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "characters."
+msgstr "Zeichen."
+
+#: src/core_plugin/core/settings/settings.php:605
+msgid "Save (classic)"
+msgstr "Speichern (klassisch)"
+
+#: src/core_plugin/core/settings/settings.php:605
+msgid "Save (AJAX)"
+msgstr "Speichern (AJAX)"
+
+#: src/core_plugin/core/settings/settings.php:762
+#: src/core_plugin/core/settings/settings.php:805
+msgid "Settings Template not found: "
+msgstr "Template für Einstellungen nicht gefunden: "
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:20
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:13
+#: src/core_plugin/core/settings/tpl/setting_color.php:9
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:8
+msgid "Toggle Color Picker"
+msgstr "Wechsel Farbwähler"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_style.php:4
+msgid "Border Style"
+msgstr "Border Style"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow.php:27
+msgid "Preview"
+msgstr "Vorschau"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/blur_radius.php:2
+msgid "Blur Radius"
+msgstr "Blur Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+msgid "Shadow Color"
+msgstr "Schattenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/horizontal_length.php:2
+msgid "Horizontal Length"
+msgstr "Horizontale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/inset.php:2
+msgid "Shadow Style"
+msgstr "Schattenstil"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/spread_radius.php:2
+msgid "Spread Radius"
+msgstr "Spread Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/vertical_length.php:2
+msgid "Vertical Length"
+msgstr "Vertikale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+msgid "Color"
+msgstr "Farbe"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_family.php:8
+msgid "Font Family"
+msgstr "Schriftart (Font Family)"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_size.php:7
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_weight.php:2
+msgid "Font Weight"
+msgstr "Schriftstärke"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/letter_spacing.php:7
+msgid "Letter Spacing"
+msgstr "Zeichenabstand"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/line_height.php:7
+msgid "Line Height"
+msgstr "Zeilenabstand"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_decoration.php:2
+msgid "Text Decoration"
+msgstr "Text-Dekoration"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_transform.php:2
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: src/core_plugin/core/settings/tpl/setting_select_page.php:9
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: src/core_plugin/core/settings/tpl/setting_upload.php:41
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: src/core_plugin/core_plugin.php:31 src/core_plugin/core_plugin.php:32
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:43
+msgid "You need to update your PHP version to run"
+msgstr ""
+"Du musst deine PHP Version aktualisieren, damit unsere Produkte funktionieren"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:45
+msgid "Actual version is:"
+msgstr "Installierte Version:"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:46
+msgid "required is"
+msgstr "Erforderlich"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:55
+msgid "You need to install and activate our SV Core plugin to run"
+msgstr "Du musst unser SV Core Plugin installieren und aktivieren"
+
+#: src/init.php:25
+msgid " does not collect or share any data"
+msgstr " sammelt oder teilt keine Daten"
+
+#. Plugin URI of the plugin/theme
+msgid "https://straightvisions.com/"
+msgstr "https://straightvisions.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"SV Posts is an advanced block to show Posts with custom order, filters and "
+"styles."
+msgstr ""
+"SV Posts ist ein erweiterter Block, um Beiträge mit benutzerdefinierter "
+"Reihenfolge, Filtern und Designs anzuzeigen."
+
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"

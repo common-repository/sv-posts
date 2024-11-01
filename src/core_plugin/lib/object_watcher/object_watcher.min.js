@@ -1,0 +1,1 @@
+function sv_watchAnyObject(n={},t=[],c=function(){},f=function(){}){for(let i of t){let l=n[i].bind(n),o=function(...n){c(i,...n);let t=l.apply(null,n);return f(i,...n),t};n[i]=o.bind(n)}}

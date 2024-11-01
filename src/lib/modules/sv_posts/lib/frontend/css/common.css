@@ -1,0 +1,57 @@
+/* General */
+.wp-block-straightvisions-sv-posts{
+	margin:0 auto;
+}
+.wp-block-straightvisions-sv-posts *,
+.wp-block-straightvisions-sv-posts *::before,
+.wp-block-straightvisions-sv-posts *::after {
+	box-sizing: border-box;
+}
+
+.wp-block-straightvisions-sv-posts > article,
+.wp-block-straightvisions-sv-posts > article.entry {
+	min-height:100px;
+	margin: 0;
+	border-style: solid;
+}
+
+.wp-block-straightvisions-sv-posts article.sv-post-content-align-center *{
+	text-align:center;
+}
+
+.wp-block-straightvisions-sv-posts article.sv-post-content-align-left *{
+	text-align:left;
+}
+
+.wp-block-straightvisions-sv-posts article.sv-post-content-align-right *{
+	text-align:right;
+}
+
+/* Title */
+.wp-block-straightvisions-sv-posts .sv-posts-title,
+.wp-block-straightvisions-sv-posts .sv-posts-title a,
+.wp-block-straightvisions-sv-posts .sv-posts-title span {
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+	margin: 0;
+	transition: color .25s ease-in-out;
+}
+
+/* Excerpt */
+.wp-block-straightvisions-sv-posts .sv-posts-excerpt p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/* Info */
+.wp-block-straightvisions-sv-posts .sv-posts-info {
+	margin: 0;
+}
+
+/* Infinite Scroll Loading */
+.sv-posts-infinite-scroll-loader {
+	display: none;
+	width:100%;
+	text-align:center;
+}
